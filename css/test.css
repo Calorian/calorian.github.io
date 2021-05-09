@@ -1,0 +1,79 @@
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+/* Html */
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size:18px;
+  }
+}
+
+/* Aside conteant  (sidebar) */
+aside {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+@media (min-width: 48em) {
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+/* Main */
+main {
+  margin-left: 0;
+  background: #EEEEEE;
+}
+
+@media (min-width: 48em) {
+  main {
+    margin-left: 18rem;
+    min-height: 100vh;
+  }
+}
+
+/* Section - Appears in main */
+@media (min-width: 48em) {
+  section{
+    max-width:1000px;
+  }
+}
+
+@media (max-width: 48em) {
+.blog-name {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+}
+}
