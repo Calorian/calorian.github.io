@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Raspberry Media Pi</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Happenings in my world.">
+    <meta name="author" content="[object Object]">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Biscuit&#39;s blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Biscuit&#39;s blog">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/test.css">
+  </head>
+
+  <body>
+    <aside class="text-center bg-dark text-white">
+      <!-- Sidebar -->
+      <div class="sidebar-sticky">
+      <h1 class="pt-lg-4 mb-0 blog-name">Biscuit&#39;s blog</h1>
+
+      <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
+        <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+        </button>
+
+        <div id="navigation" class="collapse navbar-collapse flex-column" >
+          <div class="pt-3 pt-lg-0">
+            <img class="mb-3 rounded-circle mx-auto" style="width:75%; max-width:200px;" src="/img/author.jpg" alt="Author image">
+            <div class="mb-3">Triumph enthusiast, history buff, travel hobbyist, die hard geek and former archaeologist.</div>
+          </div>
+
+          <ul class="navbar-nav flex-column text-left">
+            <li class="nav-link">
+            <a href="/">Home</a>
+            </li>
+            <li class="nav-link">
+            <a href="/halo/">Project HaLO</a>
+            </li>
+            <li class="nav-link">
+            <a href="/bela/">Project BeLA</a>
+            </li>
+            <li class="nav-link">
+            <a href="/posts/">Archive</a>
+            </li>
+          </ul>
+          <small class="copyright">Copyright 2021 </small>
+        </div>
+      </nav>
+      </div>
+      <!-- End of Sidebar -->
+
+    </aside>
+
+    <main class="p-3 p-md-5">
+<section class="card mb-4">
+  <img class="card-img-top" src="/img/" style="max-height: 400px; object-fit: cover">
+  <div class="card-body">
+    <h2 class="card-title">Raspberry Media Pi</h2>
+    <time datetime="2013-03-20">20 Mar 2013</time>
+    <p class="card-text">
+    <p>So as many of you may know, I have been talking about getting a Raspberry Pi for a little while. This was mainly to play with and possibly use as a media centre. Well, I have finally managed to get my hands on one and have done exactly that. Got one to version to “play” with and the other for a media centre. No, I don’t have two PIs, just two SD cards is all you need as the base OS is run from there. This means a simple swap of card can create a completely different machine. If you have one though, you’ll already know this and if you don’t you may not even need this sort of flexibility but I find it incredibly useful. Over the new couple of posts I will detail the project from start to finish. This will document the case build, caddy area for HDD and external USB hub build and then the actual software install, configuration and tweaking as well as the details for the android powered remote control.<br>
+Ok so we’ll start with the case build. Now you could purchase a specific case for your machine but I felt this limited my ability to add modules and personalise. For this reason I decided that the clear logical answer was Lego. We have loads and I always love an excuse to have a play every now and again, so this is perfect. I’ll point out now, before we get started that if you suffer from any neatness OCD or perfectionism, this step is going to be killer for you. (Trust me, I know!) Now the Pi itself is roughly 13×9 spots (Lego Spots) in size which is an extremely awkward size to work with so I improvised with what I could and went with a 12×10 base. This just means that either the SD card or USB ports will overhang slightly but this is no biggy. I chose to let the USB ports stick out as this added a little protection for the SD card.</p>
+<p>Next I built up the courses around the Pi. I chose single colours for a striped look and also bricks with holes in for a little bit of added airflow but this isn’t a necessity as the Pi doesn’t seem to suffer any real heating issues. I found that at the SD, PSU, HDMI and Ethernet port a 2 course gap is ample whereas the USB, jack and composite video benefit from a 3 course gap. I then made a little door for the jack/comp as I don’t really need these too often, as with the Ethernet. These could be bricked up but they may always come in use at sometime, and the on-board LEDs are located beside the jack so a door keeps them visible. Then I simply added the top with some fancy Lego bricks to show port locations and the like.</p>
+<p>Next I built a couple of feet from the bottom of this, just nicely wide enough to fit my external HDD between and thus serving as a nicely accessible drive bay. The same idea was used for the external USB hub. The hub also needs to be externally powered as the Pi itself doesn’t really have the oomph to properly power heavy use USB devices. (Wifi adapters, Disks etc.)</p>
+<p>And here is the MK1. I’m still waiting on the arrival of a new smaller powered USB hub.</p>
+<p>A fair design containing all it needs with the ease of modification and addition. It also has the ability to easily remove the HDD in order to update the media store whenever you please.</p>
+<p>I will detail the software installation and configuration in a future post.</p>
+
+    </p>
+  </div>
+  <div class="card-footer"><a href="/tags/computing/" class="badge badge-secondary mx-1 text-capitalize">computing</a>
+  </div>
+</section>
+
+<section id="pagination">
+<nav class="nav nav-pills nav-justified pt-3"><a class="nav-item rounded bg-secondary text-white mx-2" href="/posts/2012/2012-07-28/">&laquo Previous post</a><a class="nav-item rounded bg-secondary text-white mx-2" href="/posts/2013/2013-10-29/">Next post &raquo</a>
+</nav>
+</section>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/721532b6e1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Current page: /posts/2013/2013-03-20/ -->
+  </body>
+</html>
